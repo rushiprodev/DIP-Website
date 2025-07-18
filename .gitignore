@@ -4,4 +4,3 @@ __pycache__/
 *.pyd
 db.sqlite3
 venv/
-node_modules/
