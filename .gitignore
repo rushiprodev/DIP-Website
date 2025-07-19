@@ -1,6 +1,56 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django specific
+*.log
 db.sqlite3
+media/
+staticfiles/
+.env
+
+# Django migrations (optional - keep if you want clean repo)
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# Virtual environment
 venv/
+env/
+ENV/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test and coverage
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache/
+*.cover
+.pytest_cache/
+.pytype/
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyInstaller
+build/
+dist/
+*.spec
